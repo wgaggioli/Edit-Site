@@ -1,0 +1,48 @@
+.supernav, .supernav * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.supernav {
+    line-height: 1.0;
+	width: 100%;
+}
+.supernav ul {
+    position: absolute;
+    top: -999em;
+}
+.supernav ul li {
+	width: 100%;
+}
+.supernav li:hover {
+	visibility:	inherit; /* fixes IE7 'sticky bug' */
+}
+.supernav li {
+    float: left;
+    position: relative;
+}
+.supernav a, .supernav span {
+	display: block;
+	position: relative;
+}
+.supernav li:hover ul,
+.supernav li.sfHover ul {
+	left: 0;
+	z-index: 99;
+}
+ul.supernav li:hover li ul,
+ul.supernav li.sfHover li ul {
+	top: -999em;
+}
+ul.supernav li li:hover ul,
+ul.supernav li li.sfHover ul {
+	top: 0;
+}
+ul.supernav li li:hover li ul,
+ul.supernav li li.sfHover li ul {
+	top: -999em;
+}
+ul.supernav li li li:hover ul,
+ul.supernav li li li.sfHover ul {
+	top: 0;
+}

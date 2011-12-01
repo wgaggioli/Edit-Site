@@ -1,0 +1,11 @@
+-- Edit Site --
+Author: Will Gaggioli
+Use as you see fit
+
+A Django App for a custom CMS with TinyMCE. The advantage of this app is it
+provides an interface for creating and managing layouts and associated inputs
+for a page. An input in this sense ranges from a textarea (displayed by default
+as html page content), a list of images for a slideshow, etc. Once widget
+behavior is programmed, it's simple to create multiple layouts for pages in a
+site, configure the inputs necessary for those layouts, and assign them to pages
+without knowing anything more than a bit of html.
